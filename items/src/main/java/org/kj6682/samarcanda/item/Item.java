@@ -25,12 +25,11 @@ public class Item {
     public Item() {
     }
 
-    public Item(Long id, String title, String by, Location location ) {
+    public Item(String title, String by, Location location ) {
 
         this.by = by;
-        this.id = id;
-        this.location = location;
         this.title = title;
+        this.location = location;
     }
 
     public Long getId() {
