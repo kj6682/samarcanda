@@ -30,9 +30,9 @@ public class Application {
 
         return (args) -> {
 
-            Arrays.asList("1,2,3,4,5,6,7,8".split(",")).
+            Arrays.asList("item1,item2,item3,item4,item5,item6,item7,item8".split(",")).
                     forEach(l -> {
-                        Item item = new Item(l,  "", new Location());
+                        Item item = new Item(l,  "author of " + l, new Location());
                         itemRepository.save(item);
                     });
 
