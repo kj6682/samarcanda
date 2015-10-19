@@ -5,6 +5,9 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.kj6682.samarcanda.Application;
+import org.kj6682.samarcanda.org.kj6682.samarcanda.location.Location;
+import org.kj6682.samarcanda.org.kj6682.samarcanda.location.LocationController;
+import org.kj6682.samarcanda.org.kj6682.samarcanda.location.LocationRepository;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 

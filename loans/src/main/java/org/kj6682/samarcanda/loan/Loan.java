@@ -16,7 +16,7 @@ public class Loan {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private String id;
 
     private Date begin;
     private Date end;
@@ -58,11 +58,11 @@ public class Loan {
         this.end = end;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

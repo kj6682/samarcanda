@@ -1,6 +1,5 @@
-package org.kj6682.samarcanda.item;
+package org.kj6682.samarcanda.org.kj6682.samarcanda.location;
 
-import org.kj6682.samarcanda.item.Location;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

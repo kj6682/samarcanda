@@ -1,6 +1,5 @@
-package org.kj6682.samarcanda.item;
+package org.kj6682.samarcanda.org.kj6682.samarcanda.location;
 
-import org.kj6682.samarcanda.item.Location;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 

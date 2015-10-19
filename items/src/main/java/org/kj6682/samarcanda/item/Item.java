@@ -1,5 +1,7 @@
 package org.kj6682.samarcanda.item;
 
+import org.kj6682.samarcanda.org.kj6682.samarcanda.location.Location;
+
 import javax.persistence.*;
 
 /**
@@ -15,7 +17,7 @@ public class Item {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private String id;
     private String title;
     private String by;
 
@@ -32,11 +34,11 @@ public class Item {
         this.location = location;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

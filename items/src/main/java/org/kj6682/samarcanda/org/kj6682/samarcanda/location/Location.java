@@ -1,4 +1,4 @@
-package org.kj6682.samarcanda.item;
+package org.kj6682.samarcanda.org.kj6682.samarcanda.location;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,16 +16,16 @@ public class Location {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private String id;
     private String site;
     private String store;
     private String shelf;
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
